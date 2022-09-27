@@ -17,7 +17,7 @@
 #### To connect "Whisper-Detector" u should copy token (provided after Step 4). 
 #### Run detector, click on "TG APi".
 #### In appeared window on right side u saw browser, paste token inside and click get chat-id*, then paste both values in 2 row's at left side, click save.
-## On Error: "Cannot get Chat ID. Check your token and send a message in your chat." — type anything to ur bot in pm.
+#### On Error: "Cannot get Chat ID. Check your token and send a message in your chat." — type anything to ur bot in pm.
 ## Then restart bot & pick region and then hit enable.
 <br><br>
 <h1> Important </h1> 
