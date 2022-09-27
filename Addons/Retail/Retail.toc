@@ -1,0 +1,6 @@
+## Interface: 90002
+## Title: Retail
+## Name: Retail
+## Notes: The Retail
+## SavedVariablesPerCharacter: AD_DelList, AD_Settings
+Retail.lua
