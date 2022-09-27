@@ -21,7 +21,7 @@
 ## Then restart bot & pick region and then hit enable.
 <br><br>
 <h1> Important </h1> 
-
+### - Install addons.
 ### - Run game windowed borderless
 ### - To answer from telegram, type /rep
 #### Example 1: /rep /r text  
