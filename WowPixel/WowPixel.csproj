@@ -73,23 +73,11 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
-    </Reference>
-    <Reference Include="EO.Base, Version=20.0.53.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
-      <HintPath>..\packages\EO.WebBrowser.20.0.53\lib\EO.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="EO.WebBrowser, Version=20.0.53.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
-      <HintPath>..\packages\EO.WebBrowser.20.0.53\lib\EO.WebBrowser.dll</HintPath>
-    </Reference>
-    <Reference Include="EO.WebBrowser.WinForm, Version=20.0.53.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
-      <HintPath>..\packages\EO.WebBrowser.WinForm.20.0.53\lib\EO.WebBrowser.WinForm.dll</HintPath>
-    </Reference>
-    <Reference Include="EO.WebEngine, Version=20.0.53.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
-      <HintPath>..\packages\EO.WebBrowser.20.0.53\lib\EO.WebEngine.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
@@ -98,6 +86,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>C:\Users\kira\source\repos\ral2\Siticone.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -266,6 +257,10 @@
     <Compile Include="tgs.Designer.cs">
       <DependentUpon>tgs.cs</DependentUpon>
     </Compile>
+    <None Include="Addons\Retail\Retail.lua" />
+    <None Include="Addons\Retail\Retail.toc" />
+    <None Include="Addons\WotLK\WotLK.lua" />
+    <None Include="Addons\WotLK\WotLK.toc" />
     <None Include="chatid.html" />
     <EmbeddedResource Include="frmWowPixel.resx">
       <DependentUpon>frmWowPixel.cs</DependentUpon>
@@ -300,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Excavator.ico" />
+    <None Include="Resources\icons8-play-button-48.png" />
     <Content Include="suigintou.ico" />
   </ItemGroup>
   <ItemGroup>
