@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="300" src="https://i.imgur.com/Br81d8R.png">
+  <img width="600" height="300" src="https://i.imgur.com/cry3txb.png">
 </p>
 <p align="center">
   <b>Whenever u get an dm in-game, bot send's screenshot to telegram.
